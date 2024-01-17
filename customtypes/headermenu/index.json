@@ -1,0 +1,100 @@
+{
+  "id": "headermenu",
+  "label": "Header",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "logo_white": {
+        "type": "Image",
+        "config": {
+          "label": "logo_white",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "logo_green": {
+        "type": "Image",
+        "config": {
+          "label": "logo_green",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "call": {
+        "type": "Image",
+        "config": {
+          "label": "call",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "search": {
+        "type": "Image",
+        "config": {
+          "label": "search",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "logo_uncc": {
+        "type": "Image",
+        "config": {
+          "label": "logo_uncc",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "accessibility": {
+        "type": "Image",
+        "config": {
+          "label": "accessibility",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "lowcarbontoggleicon": {
+        "type": "Image",
+        "config": {
+          "label": "lowCarbonToggleIcon",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "uncc_link": {
+        "type": "Link",
+        "config": {
+          "label": "uncc_link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "lowcarbontogglelabel": {
+        "type": "Text",
+        "config": {
+          "label": "lowcarbontogglelabel",
+          "placeholder": ""
+        }
+      },
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "header_menu_item": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

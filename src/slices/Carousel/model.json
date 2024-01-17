@@ -1,0 +1,42 @@
+{
+  "id": "carousel",
+  "type": "SharedSlice",
+  "name": "Carousel",
+  "description": "Carousel",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "label": {
+          "type": "Text",
+          "config": {
+            "label": "label",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}

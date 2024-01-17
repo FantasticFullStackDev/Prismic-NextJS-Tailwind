@@ -1,0 +1,161 @@
+{
+  "id": "footermenu",
+  "label": "Footer",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID",
+          "placeholder": ""
+        }
+      },
+      "logo_bottom": {
+        "type": "Image",
+        "config": {
+          "label": "logo_bottom",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "logo_uncc": {
+        "type": "Image",
+        "config": {
+          "label": "logo_uncc",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "logo_cop28": {
+        "type": "Image",
+        "config": {
+          "label": "logo_cop28",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "logo_appstore": {
+        "type": "Image",
+        "config": {
+          "label": "logo_appstore",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "logo_googleplay": {
+        "type": "Image",
+        "config": {
+          "label": "logo_googleplay",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "dowload_app_text": {
+        "type": "Text",
+        "config": {
+          "label": "dowload_app_text",
+          "placeholder": ""
+        }
+      },
+      "label_privacy_policy": {
+        "type": "Text",
+        "config": {
+          "label": "label_privacy_policy",
+          "placeholder": ""
+        }
+      },
+      "link_privacy_policy": {
+        "type": "Link",
+        "config": {
+          "label": "link_privacy_policy",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "label_accessibility": {
+        "type": "Text",
+        "config": {
+          "label": "label_accessibility",
+          "placeholder": ""
+        }
+      },
+      "link_accessibility": {
+        "type": "Link",
+        "config": {
+          "label": "link_accessibility",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "label_faq": {
+        "type": "Text",
+        "config": {
+          "label": "label_faq",
+          "placeholder": ""
+        }
+      },
+      "link_faq": {
+        "type": "Link",
+        "config": {
+          "label": "link_faq",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "label_rights_reserved": {
+        "type": "Text",
+        "config": {
+          "label": "label_rights_reserved",
+          "placeholder": ""
+        }
+      },
+      "label_assistance": {
+        "type": "StructuredText",
+        "config": {
+          "label": "label_assistance",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "link_uncc": {
+        "type": "Link",
+        "config": {
+          "label": "link_uncc",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "link_appstore": {
+        "type": "Link",
+        "config": {
+          "label": "link_appstore",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "link_googleplay": {
+        "type": "Link",
+        "config": {
+          "label": "link_googleplay",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "social_links": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

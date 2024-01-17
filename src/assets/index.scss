@@ -1,0 +1,92 @@
+.container {
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+
+@media (min-width: 300px) {
+  .container {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+}
+
+.hoverBox {
+  &:hover {
+    div:nth-child(2) {
+      display: block;
+    }
+  }
+}
+
+.carouselBanner .slick-dots li {
+  width: auto;
+  margin: 0;
+}
+.carouselBanner .slick-dots li:last-of-type span {
+  margin-right: 0;
+}
+
+.carouselBanner .slick-dots li.slick-active span span {
+  animation-name: progress;
+  animation-fill-mode: forwards;
+}
+
+html:not([data-theme="low-carbon"])
+  .carouselBanner
+  .carousel-banner-slide:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  opacity: 0.7;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 20.8%,
+    rgba(0, 0, 0, 0) 97.39%
+  );
+  z-index: 1;
+}
+.carouselBanner .container {
+  position: relative;
+  z-index: 2;
+}
+@keyframes progress {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+.slider-track {
+  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+@keyframes loaderSwipeAnim {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+.RichText {
+  a {
+    font-weight: bold;
+    color: #CDEF05;
+  }
+}
+
+h2 {
+  font-size: 30px !important;
+  font-weight: bold !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

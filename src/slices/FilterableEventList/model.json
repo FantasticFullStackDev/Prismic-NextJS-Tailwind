@@ -1,0 +1,26 @@
+{
+  "id": "filterable_event_list",
+  "type": "SharedSlice",
+  "name": "FilterableEventList",
+  "description": "FilterableEventList",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
